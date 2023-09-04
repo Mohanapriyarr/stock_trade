@@ -1,0 +1,41 @@
+name: tradetech
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+
+  provider: ^6.0.5
+
+  # for loader
+  loading_animation_widget: ^1.2.0+3
+
+  # for api
+  http: ^0.13.5
+
+  # for chart
+  syncfusion_flutter_charts: ^19.1.54
+
+  cached_network_image: ^3.2.1
+
+  intl: ^0.17.0
+
+  # for logging and color print
+  logging: ^1.0.2 # for logging messages
+  palestine_console: ^0.0.10 # for colorful logs
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
